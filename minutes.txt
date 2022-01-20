@@ -1,3 +1,9 @@
 Jeudi 13 janvier 2022
   Debut du projet
     Prsenetation du projet et mise en avant des perspectives durant la duree du projet
+    Problématique : comment passer de la valeur de la tension de la pédale au controlleur ?
+    Proposition de plusieurs idées
+  
+Jeudi 20 janvier 2022
+  On a récuperer les codes du BSM de l'année derniere ainsi que le rapport, on sait donc que la tension de la pédale varie de 0 a 4.4V. On a également apprit que cette tension était deja recuperer pour avoir le pourcentage de la course de la pédale. 
+Notre objectif est donc de recuperer cette valeur analogique pour la rebalancer sur le controlleur via les sorties analogique de l'arduino
