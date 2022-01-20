@@ -7,3 +7,9 @@ Jeudi 13 janvier 2022
 Jeudi 20 janvier 2022
   On a récuperer les codes du BSM de l'année derniere ainsi que le rapport, on sait donc que la tension de la pédale varie de 0 a 4.4V. On a également apprit que cette tension était deja recuperer pour avoir le pourcentage de la course de la pédale. 
 Notre objectif est donc de recuperer cette valeur analogique pour la rebalancer sur le controlleur via les sorties analogique de l'arduino
+
+La semaine prochaine on va commencer a bosser sur le code limiteur, on va utiliser une condition afin de slectionner si l'entrée du moteur est commandée par la pédale (qui passe par le BSM) ou par une valeur brut (afin de caper la sortie pwm du moteur).
+
+
+Jeudi 27 janvier 2022
+  
