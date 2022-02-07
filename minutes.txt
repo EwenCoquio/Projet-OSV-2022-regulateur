@@ -11,5 +11,10 @@ Notre objectif est donc de recuperer cette valeur analogique pour la rebalancer 
 La semaine prochaine on va commencer a bosser sur le code limiteur, on va utiliser une condition afin de slectionner si l'entrée du moteur est commandée par la pédale (qui passe par le BSM) ou par une valeur brut (afin de caper la sortie pwm du moteur).
 
 
-Jeudi 27 janvier 2022
-  
+Lundi 07/02/2022
+  Proposition pour jeudi : 
+  il faut soit une carte sim sms illimité soit internet illimité
+    - carte sim M2M, inconvenient : très cher et limite de sms par mois
+    - carte sim prépayée pour les tests puis m2m
+    - carte sim 4g ou plus sur le véhicule afin de le rendre connecté et de pouvoir utiliser au maximum cette option (geolocalisation, radio, notification a distance, controle a distance, ect...)
+    
