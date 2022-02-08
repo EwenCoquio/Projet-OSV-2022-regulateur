@@ -18,3 +18,5 @@ Lundi 07/02/2022
     - carte sim prépayée pour les tests puis m2m
     - carte sim 4g ou plus sur le véhicule afin de le rendre connecté et de pouvoir utiliser au maximum cette option (geolocalisation, radio, notification a distance, controle a distance, ect...)
     
+Pour le jeudi 9 février 
+  Souder et cabler les raccorts de la pédale d'accelération et mettr esur table les différentes possibilités d'évolution du projet
