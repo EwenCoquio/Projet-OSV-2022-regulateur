@@ -5,7 +5,7 @@
 #define DEBUG 0
 
 //definition des pins
-const int accel_pedal = 1; //pedale sur le pin 1
+const int accel_pedal = A2; //pedale sur le pin 1
 const int limiteur_state = 34 ; //on place le switch du limiteur sur un pin digital (en bas)
 const int sortie_accel = 7;  //sortie du signal qui va vers le controleur
 
@@ -24,6 +24,7 @@ int acq_accel() {
 }
 
 void write_accel(int x) {
+  x = map(x, 0, 1023 , 0, 250);  //on va utiliser la fonction map afin de lisser la courbe de la tension
   analogWrite(sortie_accel, x);  //la valeur de x est codé sur 8 bits (255 etant la valeur max)
 }
 
@@ -41,7 +42,7 @@ void loop() {
     Serial.println("limiteur desactive");
   }
   else {
-    write_accel_lim(acq_accel(), 125);
+    write_accel_lim(acq_accel(), 80);
 
     Serial.println("limiteur active");
   }
@@ -51,7 +52,4 @@ void loop() {
   Serial.print("valeur de la sortie : ");
   Serial.println(analogRead(sortie_accel));
 #endif
-
-  delay(500);
-
 }
