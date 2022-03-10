@@ -20,3 +20,12 @@ Lundi 07/02/2022
     
 Pour le jeudi 10 février 
   Souder et cabler les raccorts de la pédale d'accelération et mettr esur table les différentes possibilités d'évolution du projet
+  
+Jeudi 10 février 
+  Il s'est avéré que la sortie analogique de l'arduino était une sortie PWM, or le controlleur du moteur ne prend qu'une tension continue. Nous devons trouver un moyen pour convertir notre sortie.
+  Après quelques recherches auprès des profs et d'internet 
+
+
+Jeudi 24 février 
+
+  Nosu avons tenté de connecter notre boitier de commande sur l'OSV directement pour voir si notre code ainsi que notre montage était fonctionnel
